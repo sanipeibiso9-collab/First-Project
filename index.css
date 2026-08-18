@@ -1,0 +1,97 @@
+body {
+  background-color: rgb(116, 163, 210);
+}
+.head {
+  background: linear-gradient(to right, #0d64e7, #a0caef);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 120px 
+
+
+}
+.logo {
+  display: grid;
+  position: absolute;
+  border-radius: 50;
+  margin-top: 10px;
+  top: 10px;
+  left: 10px;
+  width: 100px;
+  height: 95px;
+}
+.schedule {
+  padding: 9px 18px;
+  margin-left: 1005px;
+  margin-right: 0px;
+  background-color: #1e33f4;   
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 300;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.15s ease;
+}
+.schedule:hover {
+  background-color: #f40505;
+  transform: scale(1.05);
+}
+.nav1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 160px;
+  margin-right: 0px;
+  margin-bottom: 100px;
+  gap: 1rem;
+  padding: 1rem 1rem;
+  column-gap: 2rem;
+}
+.empower {
+  border-style: dashed;
+  margin-right: 600px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  height: 400px;
+}
+.emp1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+}
+  .emp2 {
+  border-style: dashed;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.request {
+  background-color: #1e33f4;
+  border-radius: 5px;
+  border-style: dashed;
+  margin-left: 70px;
+  font-size: 18px;
+  color: #ffffff;
+  transition: background-color 0.2s ease, transform 0.15s ease;
+  
+}
+.request:hover {
+  background-color: #f40505;
+  transform: scale(1.05);
+
+}
+.explore {
+  background-color: #1e33f4;
+  border-radius: 5px;
+  border-style: dashed;
+  margin-left: 80px;
+  font-size: 18px;
+  color: #ffffff;
+  transition: background-color 0.2s ease, transform 0.15s ease;
+}
+.explore:hover {
+  background-color: #f40505;
+  transform: scale(1.05);
+}
